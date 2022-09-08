@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "Title": "Monitor Azure Managed Instance for Apache Cassandra using Dynatrace",
+      "Content": "There is now a new extension from Dynatrace that provides fully app-centric Cassandra performance monitoring for Azure Managed Instance for Apache Cassandra. Monitor your clusters with Dynatrace Prometheus Extension Dynatrace Prometheus Extension allows you to monitor and analyze the activity of your Azure Managed Instance for Apache ",
+      "Author": "Jay Smith",
+      "Time": "July, 19,2022"
+    },
+    {
+      "id": 2,
+      "Title": "Application permissions for Bookings APIs in Microsoft Graph now available on v1",
+      "Content": "We are delighted to announce that application permissions for Bookings APIs in Microsoft Graph are now available on the v1 endpoint.  Microsoft Graph APIs support both delegated and application permissions on the v1 endpoint. Previously, Bookings APIs in Microsoft Graph supported only delegated permissions.",
+      "Author": "Bridgit Makena",
+      "Time": "June, 19,2022"
+    },
+    {
+      "id": 3,
+      "Title": "Use of refine framework to develop full stack application",
+      "Content": "We frequently require quick development and sometimes flexibility while developing a Full Stack application. Aside from speed and flexibility, we must establish the application architecture correctly at the start so that we are not subjected to any more needless work throughout the development process. In this article, we will use the refine framework to develop a full stack application. Refine will provide us with the speed and flexibility we are looking for, while assisting with the overall project architecture during web application development.",
+      "Author": "Judy Mwai",
+      "Time": "June, 19,2021"
+    },
+    {
+      "id": 4,
+      "Title": "What is refine",
+      "Content": "refine is a headless React internal tool framework. It helps you develop quickly while developing both B2B and B2C applications. While speeding you up, it is never restricted and has a fully customizable structure.",
+      "Author": "Kayleigh Rush",
+      "Time": "June, 19,2022"
+    },
+    {
+      "Title": "Time is limited",
+      "Content": "noting the is and ts",
+      "Author": "Wangila",
+      "id": 5
+    }
+  
+    
+  ]
+}
