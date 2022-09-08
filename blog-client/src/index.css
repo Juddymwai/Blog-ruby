@@ -30,3 +30,8 @@ code {
 .navName > h3{
   text-align:left
 }
+
+.card-body{
+  background-color: rgb(37, 35, 35);
+  color:white
+}
