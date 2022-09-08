@@ -17,6 +17,10 @@ function HomePage(){
     }, [newReview])
 
 
+    function handleAddReview(newReviews){
+      setNewReview([...newReview, newReviews])
+     
+    }
 
 
   function handleDeletePost(id){
