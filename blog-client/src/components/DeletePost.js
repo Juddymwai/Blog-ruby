@@ -34,17 +34,9 @@ return (
     <div>
         <EditPost  id={id} onUpdatedBody={handleUpdatedBody}/>
 
-        <button onClick= {handleUpdatedBody}>
-        <span role="img" aria-label="edit">
-              ✏️
-            </span>
-            
-            </button>
-
-
-
-    <button onClick={handleDeleteClick}> <span role="img" aria-label="delete">
-              🗑</span></button>
+        <p type="button" onClick= {handleUpdatedBody} style={{backgroundColor:"rgb(37, 35, 35)"}}>
+        <span role="img" aria-label="edit"> ✏️ </span> <span type="button" onClick={handleDeleteClick} style={{backgroundColor:"rgb(37, 35, 35)"}}> </span> <span role="img" aria-label="delete">
+        🗑</span> </p>
 
 
     </div>
