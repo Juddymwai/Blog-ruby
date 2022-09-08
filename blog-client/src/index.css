@@ -19,7 +19,13 @@ code {
   text-align:center;
   color: aliceblue;
   font-family: verdana;
+  background-color: black;
+  height: 300px;
+
   
   
   
+}
+.navName > h3{
+  text-align:left
 }

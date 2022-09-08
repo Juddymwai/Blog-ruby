@@ -19,7 +19,10 @@ function Navbar(){
             </ul>
 
             <div className="navName">
-                <h3>The Developer Blog</h3>
+                <p> </p>
+            
+                <h1 style={{paddingTop:50 + "px"}}>THE BLOG</h1>
+                <p> - Follow the latest news and thoughts <br></br> from the developer's Blog</p>
             </div>
 
             
