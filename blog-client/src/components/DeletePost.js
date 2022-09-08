@@ -20,35 +20,4 @@ function DeletePost({onDeletePost, id, onUpdatedBody, currentUser}){
         onDeletePost(id)
     }
 
-    function handleUpdatedBody(updatedBody){
-        // setIsEditing(false);
-        onUpdatedBody(updatedBody)
-    }
-
-
-
-
-
-return (
-    
-    <div>
-        <EditPost  id={id} onUpdatedBody={handleUpdatedBody}/>
-
-        <button onClick= {handleUpdatedBody}>
-        <span role="img" aria-label="edit">
-              ✏️
-            </span>
-            
-            </button>
-
-
-
-    <button onClick={handleDeleteClick}> <span role="img" aria-label="delete">
-              🗑</span></button>
-
-
-    </div>
-)}
-
-
-export default DeletePost;
+   
