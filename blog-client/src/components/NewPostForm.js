@@ -45,7 +45,7 @@ function NewPostForm({onHandleAddPost, setIsFilledIn}){
     
 
     return (
-        <div style={{margin:"auto", width:'60%', height: 100+"vh"}}>
+        <div style={{margin:"auto", width:'60%', height: 100+"vh", color:"blue"}}>
             <h1 style={{textAlign:"center", marginTop: 50 +"px"}}>Create A New Post</h1>
 
             <form className="mb-3" onSubmit={handleSubmit}>
