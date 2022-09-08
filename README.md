@@ -15,7 +15,7 @@
  - [Licence](#licence)
  - [Authors Info](#Authors-Info)
  ## Description
- <p>This project is a single web page  application known as Developer-Blog that is developed using react for the frontend and ruby for the backend. React has enable the app to be simple and easy to implement. The app uses active record to interact the databse. Additionally the app has API routes in sinatra that handles CRUD operations.The functionality of the app is to enable users to access various blogs posts from developers. It additionally allows users to add their own posts once they are logged in.</p>
+ <p>This project is a single web page  application known as Developer-Blog that is developed using react for the frontend and ruby for the backend. React has enable the app to be simple and easy to implement. The app uses active record to interact with the databse. Additionally the app has API routes in sinatra that handles CRUD operations.The functionality of the app is to enable users to access various blogs posts from developers. It additionally allows users to add their own posts once they are logged in.</p>
 
 ## Features
 As a user of the application,you will be able to :
