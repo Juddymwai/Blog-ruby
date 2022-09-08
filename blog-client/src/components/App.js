@@ -16,7 +16,7 @@ function App(){
     <div style={{background: ""}}>
       <Router >
 
-          <div style={{background: " black"}}>
+          <div style={{background: " white"}}>
 
               <Navbar/>
               
