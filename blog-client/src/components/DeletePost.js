@@ -12,7 +12,7 @@ function DeletePost({onDeletePost, id, onUpdatedBody, currentUser}){
 
 
     function handleDeleteClick(){
-        fetch (`http://localhost:9292/reviews/${id}`, {
+        fetch (`http://localhost:9292/posts/${id}`, {
             method: "DELETE",
             headers:{"Content-Type": "application/json"}
         

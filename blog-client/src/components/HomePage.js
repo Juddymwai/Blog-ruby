@@ -29,15 +29,9 @@ function HomePage(){
 
   }
 
-  // function handleDeletePost(id){
-  //   const updatedPost = blogPost.filter((p) => p.id !== id);
-  //   setBlogPost(updatedPost)
-
-  // }
-
+ 
   
-    
-
+  
     return (
      <div style={{margin:"auto", width:'60%', marginTop: 0 +"px", marginBottom: 30+ "px"}}>
         <h3 style={{textAlign:'center'}}></h3>
