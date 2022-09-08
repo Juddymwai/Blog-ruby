@@ -1,7 +1,9 @@
 # Developer-Blog
  ## Judy Mwai
 ## Screenshot
- ![image]()
+ <!-- ![image](./blog-client/public/landing.png) -->
+ <img src="/blog-client/public/landing.png" />
+ 
  ## Table of Content
  - [Description](#description)
  - [Features](#features)
@@ -13,7 +15,7 @@
  - [Licence](#licence)
  - [Authors Info](#Authors-Info)
  ## Description
- <p>This project is a single web page  application known as Developer-Blog that is developed using react. React has enable the app to be simple and easy to implement. The functionality of the app is to enable users to access various blogs posts from developers. It additionally allows users to add their own posts once they are logged in.</p>
+ <p>This project is a single web page  application known as Developer-Blog that is developed using react for the frontend and ruby for the backend. React has enable the app to be simple and easy to implement. The app uses active record to interact the databse. Additionally the app has API routes in sinatra that handles CRUD operations.The functionality of the app is to enable users to access various blogs posts from developers. It additionally allows users to add their own posts once they are logged in.</p>
 
 ## Features
 As a user of the application,you will be able to :
@@ -27,7 +29,7 @@ As a user of the application,you will be able to :
  * Access to internet
  ### Installation Process
  ****
-* Clone to the repo : git clone https://github.com/Juddymwai/The-Blog-HUB
+* Clone to the repo : git clone https://github.com/Juddymwai/Blog-ruby
 * Unzip the downloaded files in a folder of choice.
 * Open the index file from the zipped file with any browser.
  ****
@@ -38,6 +40,8 @@ As a user of the application,you will be able to :
 * HTML - has been used to display the app.
 * CSS - has been used to style the User Interface.
 * React- has been used to make single web page applications
+* Ruby- has been used to develop the backend of the app. For instances active record has been used to interact with thhe database
+
 
 ## Licence
 Copyright (c) [2022] [Judy Mwai] 
