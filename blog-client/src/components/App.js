@@ -13,7 +13,7 @@ function App(){
   
     
   return(
-    <div style={{background: ""}}>
+    <div >
       <Router >
 
           <div style={{background: " white"}}>
