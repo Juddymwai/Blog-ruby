@@ -40,7 +40,7 @@ function HomePage(){
 
     return (
      <div style={{margin:"auto", width:'60%', marginTop: 50 +"px", marginBottom: 30+ "px"}}>
-        <h3 style={{textAlign:'center'}}>Highlights</h3>
+        <h3 style={{textAlign:'center'}}></h3>
         <div style={{overflow:'scroll', height: 700+ "px"}}>
             {blogPost.map((post) => {
             return (          
@@ -51,6 +51,8 @@ function HomePage(){
                 <div className="card-body" key={post.id}>
                   <h5 className="card-title"><span><h4 class="btn btn-primary">{post.Author}</h4> </span> |{post.Title} </h5>
                   <p className="card-text">{post.Content}</p>
+
+                  <h3 style={{color:"blue", textAlign:"left"}}>Reviews</h3>
 
                   <span>{post.reviews.map((review)=> {
                   
