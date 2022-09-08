@@ -16,7 +16,7 @@ function Login ({LogIn}){
     
 
     return (
-        <div style={{margin:"auto", width:'60%' , marginTop: 50 +"px", height: 100+"vh"}}>
+        <div style={{margin:"auto", width:'60%' , marginTop: 50 +"px", height: 100+"vh", color:"blue"}}>
             <h2 style={{textAlign:"center"}}>Login Page</h2>
             <form onSubmit={handleSubmit}>
                 <div className="mb-3">
