@@ -40,15 +40,5 @@
   ]
 
 )
-data.map do |d|
-  rand(2..4).times do
-    Review.create(
-      name: Faker::Name.first_name,
-      comment:Faker::Lorem.sentence(word_count: rand(10..20)),
-      post_id: d.id
-
-    )
-  end
-end
 
 
