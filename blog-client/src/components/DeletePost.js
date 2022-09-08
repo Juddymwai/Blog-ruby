@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import EditPost from "./EditPost";
+// import EditPost from "./EditPost";
 
 
 
@@ -20,10 +20,10 @@ function DeletePost({onDeletePost, id, onUpdatedBody, currentUser}){
         onDeletePost(id)
     }
 
-    function handleUpdatedBody(updatedBody){
-        // setIsEditing(false);
-        onUpdatedBody(updatedBody)
-    }
+    // function handleUpdatedBody(updatedBody){
+    //     // setIsEditing(false);
+    //     onUpdatedBody(updatedBody)
+    // }
 
 
 
@@ -32,10 +32,15 @@ function DeletePost({onDeletePost, id, onUpdatedBody, currentUser}){
 return (
     
     <div>
-        <EditPost  id={id} onUpdatedBody={handleUpdatedBody}/>
+        {/* <EditPost  id={id} onUpdatedBody={handleUpdatedBody}/>
 
         <p type="button" onClick= {handleUpdatedBody} style={{backgroundColor:"rgb(37, 35, 35)"}}>
-        <span role="img" aria-label="edit"> ✏️ </span> <span type="button" onClick={handleDeleteClick} style={{backgroundColor:"rgb(37, 35, 35)"}}> </span> <span role="img" aria-label="delete">
+        <span role="img" aria-label="edit"> ✏️ </span>  */}
+        
+        
+       {/* <p><span type="button" onClick={handleDeleteClick} style={{backgroundColor:"rgb(37, 35, 35)"}}> 
+         */}
+        <p> <span  type = "button" onClick={handleDeleteClick}role="img" aria-label="delete">
         🗑</span> </p>
 
 
