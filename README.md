@@ -35,7 +35,7 @@ As a user of the application,you will be able to :
  ****
  
 ### Live Link
-- Click this link to view the live application https://juddymwai.github.io/The-Blog-HUB/
+- Click this link to view the live application https://Juddymwai.github.io/blog-frontend
 ### Technology  Used
 * HTML - has been used to display the app.
 * CSS - has been used to style the User Interface.
