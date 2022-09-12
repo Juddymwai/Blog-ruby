@@ -1,5 +1,11 @@
 class ApplicationController < Sinatra::Base
 
+    get '/posts/:id' do
+        post = Post.find(params[:id])
+        post.to_json
+
+    end
+
     get '/posts' do
         post = Post.all
         post.to_json(include: :reviews)
